@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  margin: 0 !important;
+  padding: 0 !important; 
+}
+
+
+.App {
+  text-align: center;   
+}
+
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 20px;
+  font-family: "Bitter", serif;
+}
+.bar{
+  background-color: #DED4E8 !important;
+  padding: 1% !important;
+  font-family: "Bitter", serif;
+}
+.bg-body-tertiary
+{
+  margin: 0 !important;
+  margin-bottom: 50px !important;
+  padding: 0 !important; 
+}
+
+.brand{
+  color: #C7395F !important;
+  font-weight: 700;
+  font-size: 32px !important;
+}
+
+.Nav_Text{
+    text-decoration: none !important;
+    color: #C7395F !important;
+    font-size: 18px !important;
+    font-weight: 500;
+    &:hover{
+      color: #E8BA40 !important;
+    }
+}
+
+.text_{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.con_1{
+  display: flex;
+  justify-content: center;  
+  font-family: "Bitter", serif;
+}
+
+.info_con{
+  display: flex;
+  flex-direction: column;  
+  row-gap: 12px;
+}
+
+.img_Con{
+  display: flex;
+  align-items: center;
+}
